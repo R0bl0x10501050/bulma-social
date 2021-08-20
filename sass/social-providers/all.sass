@@ -138,6 +138,12 @@ $youtube-light: findLightColor($youtube)
 $youtube-dark: findDarkColor($youtube)
 $youtubeColours: ("youtube": ($youtube, $youtube-invert, $youtube-light, $youtube-dark))
 
+$roblox: hsl(0, 100%, 50%) !default
+$roblox-invert: findColorInvert($roblox)
+$roblox-light: findLightColor($roblox)
+$roblox-dark: findDarkColor($roblox)
+$robloxColours: ("roblox": ($roblox, $roblox-invert, $roblox-light, $roblox-dark))
+
 // Your new social provider color
 // $replaceme: hsl(360, 100%, 50%) !default
 // $replaceme-invert: findColorInvert($replaceme)
@@ -145,7 +151,6 @@ $youtubeColours: ("youtube": ($youtube, $youtube-invert, $youtube-light, $youtub
 // $replaceme-dark: findDarkColor($replaceme)
 // $replacemeColours: ("replaceme": ($replaceme, $replaceme-invert, $replaceme-light, $replaceme-dark))
 
-
 // Remove the Social Providers you don't need and then run "npm run build"
 // Merge Social Provider maps to a single variable
-$socialProvidersList: combineSocialProviders($appleColours, $bitbucketColours, $discordColours, $dropboxColours, $facebookColours, $flickrColours, $foursquareColours, $githubColours, $gitlabColours, $instagramColours, $linkedinColours, $microsoftColours,$odnoklassnikiColours, $openidColours, $pinterestColours, $redditColours, $soundcloudColours, $tumblrColours, $twitterColours, $vimeoColours, $vkColours, $yahooColours, $youtubeColours)
+$socialProvidersList: combineSocialProviders($appleColours, $bitbucketColours, $discordColours, $dropboxColours, $facebookColours, $flickrColours, $foursquareColours, $githubColours, $gitlabColours, $instagramColours, $linkedinColours, $microsoftColours,$odnoklassnikiColours, $openidColours, $pinterestColours, $redditColours, $soundcloudColours, $tumblrColours, $twitterColours, $vimeoColours, $vkColours, $yahooColours, $youtubeColours, $robloxColours)
